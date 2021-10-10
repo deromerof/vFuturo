@@ -1,0 +1,65 @@
+body {
+  width: 100%;
+  font-family: "Roboto Mono", monospace;
+  /*background-image: url("https://www.suno.com.br/wp-content/uploads/2018/12/valor-futuro-01.jpg");*/
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0.8) 100%
+    ),
+    url("https://www.suno.com.br/wp-content/uploads/2018/12/valor-futuro-01.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  widht: 100%;
+  text-align: center;
+  padding: 20px;
+  height: 20vh;
+}
+
+.container2 {
+  text-align: center;
+  padding: 20px;
+  height: 80vh;
+}
+
+.page-title {
+  width: 100%;
+  color: red;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  width: 100%;
+  color: red;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+label {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+h2 {
+  color: red;
+  background: black;
+  font-weight: bold;
+  font-size: 35px;
+}
